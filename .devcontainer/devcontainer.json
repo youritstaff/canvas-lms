@@ -5,6 +5,8 @@
     "ghcr.io/devcontainers/features/docker-in-docker:1": {}
   },
   "workspaceFolder": "/workspaces/canvas-lms",
+  "dockerComposeFile": ".devcontainer/docker-compose.yml",
+  "service": "canvas",
   "postCreateCommand": "bash .devcontainer/setup.sh",
   "forwardPorts": [3000, 5432, 6379]
 }
