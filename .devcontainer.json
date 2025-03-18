@@ -2,7 +2,7 @@
 	"name": "canvas-lms",
 	"dockerComposeFile": [],
 	"service": "web",
-	"workspaceFolder": "/usr/src/app",
+	"workspaceFolder": "/workspaces/canvas-lms",
 	"customizations": {
 		"vscode": {
 			"extensions": [
